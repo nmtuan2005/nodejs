@@ -1,8 +1,14 @@
 # nodejs
-mpm init -y (auto Yes)
+nvn use 14
 
--- Install package
+npm init -y (auto Yes)
+
+-- Install package --
 npm i express dotenv cors nodemon
 
--- Run scripts in package.json
+-- DB --
+npm install --save sequelize
+npm install --save mysql2
+
+-- Run scripts in package.json --
 npm run dev
